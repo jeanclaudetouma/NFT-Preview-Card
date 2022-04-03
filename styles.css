@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--main-bg);
+    position: relative;
+    top: 115px;
+    font-size: 18px;
+}
+
+.container {
+    width: 275px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--card-bg);
+    border-radius: 20px;
+}
+
+.main-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    margin: 15px auto;
+    font-size: 1.1rem;
+    color: var(--white);
+}
+
+main p {
+    font-weight: 400;
+    margin: 15px auto;
+    font-size: 0.8rem;
+    color: var(--soft-blue);
+}
+
+ul {
+    list-style: none;
+    font-weight: 300;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.etheruim-text {
+    color: var(--cyan);
+}
+
+.days-left {
+    color: var(--soft-blue);
+}
+
+li img {
+    padding-right: 4px;
+}
+
+main {
+    border-bottom: 1px solid var(--line);
+}
+
+footer {
+    margin: 15px auto;
+}
+
+.creator {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+}
+
+.card_author-name {
+    margin: 10px 0 10px;
+    color: var(--soft-blue);
+    font-size: 0.8rem;
+    padding-top: 6px;
+
+
+}
+
+.card_author-name span {
+    color: white;
+}
